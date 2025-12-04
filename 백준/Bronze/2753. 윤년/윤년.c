@@ -5,13 +5,12 @@ int main (void){
 	scanf("%d",&a);
 	if(a%400==0){
 		printf("1");
-		if(a%100==0);
+	}
+	else if(a%100==0){
+		printf("0");
+		return 0;
 	}
 	else if(a%4==0){
-		if(a%100==0){
-			printf("0");
-			return 0;
-			}
 		printf("1");
 	}
 	else
